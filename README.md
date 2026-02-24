@@ -33,7 +33,8 @@ Make sure you have [Composer](https://getcomposer.org/) installed,
 and have installed PHP 8.4 or higher. and node 18.0 or higher.
 
 ```bash
-composer setup
+- composer setup
+- php artisan migrate --seed
 ```
 
 ## Seed Data
